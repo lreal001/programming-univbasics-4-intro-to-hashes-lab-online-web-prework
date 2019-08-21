@@ -36,5 +36,6 @@ def read_from_hash(hash, key)
 end 
 
 def update_counting_hash(hash, key)
-  :apples => 4
+  fruit= {:apples => 4 , :pears => 3}
+fruit. 
 end 
