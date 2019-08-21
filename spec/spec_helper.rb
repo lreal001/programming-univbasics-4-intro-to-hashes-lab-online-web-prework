@@ -2,8 +2,39 @@ require 'yaml'
 
 RSpec.configure do |config|
 
-  def __
-    # raise "replace underscore with code"
+  def my_hash
+    my_hash= {
+      :lastname => "Luca"
+    }
   end
 
 end
+
+def new_hash(Hash)
+  Hash.new
+end
+
+
+def pioneer(insect)
+  insect= {
+    :name => 'Grace Hopper'
+  }
+end
+
+def id_generator(integer)
+  integer= {
+    :id => 6
+  }
+end 
+
+def my_hash_creator( hash, key)
+  name= {:hash => key}
+end 
+
+def read_from_hash(hash, key)
+  
+end 
+
+def update_counting_hash(hash, key)
+  :apples => 4
+end 
