@@ -37,5 +37,6 @@ end
 
 def update_counting_hash(hash, key)
   fruit= {:apples => 4 , :pears => 3}
-fruit.hash.each |fruit| 
+fruit.hash.each |fruit| do 
+end
 end 
